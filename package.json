@@ -1,0 +1,17 @@
+{
+  "name": "tron-block-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node scan_block.js",
+    "check": "node --check scan_block.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "tronweb": "^6.0.0"
+  }
+}
